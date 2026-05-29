@@ -80,5 +80,5 @@ async def main():
         print(f"سيرفر البث يعمل الآن بنجاح على البورت: {port} ...")
         await asyncio.Future()  # الحفاظ على السيرفر يعمل دائماً دون توقف
 
-if name == "__main__":
+if __name__ == "__main__":
     asyncio.run(main())
